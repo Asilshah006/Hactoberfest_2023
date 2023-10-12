@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp"
+    android:background="@drawable/attachment"
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="75dp"
+        android:width="90dp"
+        android:height="36dp"
+        android:text="Sign Up"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"
+        android:width="260dp"
+        android:height="16dp"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_person_24"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:width="200dp"
+        android:height="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_email_24"
+        />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:width="250dp"
+        android:height="16dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:width="250dp"
+        android:height="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="24dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword5"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:width="250dp"
+        android:height="16dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="143dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:width="130dp"
+        android:height="36dp"
+        android:text="Sign Up"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".text_editor"
+    android:background="@color/design_default_color_on_primary">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Text App"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/textinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:width='410dp'
+        android:height="60dp"
+        android:hint="Input Text"
+        android:textColor="@color/black">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/clear_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="410dp"
+        android:text="Clear"
+        android:layout_marginTop="20dp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/undo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="410dp"
+        android:text="Undo"
+        android:layout_marginTop="20dp"
+        >
+
+    </Button>
+
+
+
+</LinearLayout>
